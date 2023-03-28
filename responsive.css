@@ -1,0 +1,23 @@
+@media(max-width:800px){
+    .link{
+        display: none;
+    }
+    .menu{
+        display: inline-block !important;
+    }
+    .menu-container:hover .link{
+        display:flex;
+        position: absolute;
+        top:40px;
+        left: 0;
+        right: 0;
+        /* left: 80%; */
+        /* right: 100%; */
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: white;
+        /* margin-top: 20px; */
+        padding: 20px;
+        
+    }
+}
